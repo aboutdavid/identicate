@@ -1,6 +1,9 @@
 # Identicate
-
 `is_admin` and hard coding users for every bot are so outdated. One centralised place is awesome!
+
+
+## Clients
+There is currently a Node.js/Browser JavaScript one and a Python one. See CLIENTS.md for more infomation. They're basically wrappers around the language's request feature.
 
 ## API docs
 
