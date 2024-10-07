@@ -1,29 +1,44 @@
 module.exports = {
     users: [
         {
+            name: "Kartikey",
+            comments: "",
+            id: "U05F4B48GBF",
+            roles: [{
+                id: "swat"
+            }]
+        },
+        {
             name: "David",
             comments: "",
             id: "U04CBLNSVH6",
             roles: [{
-                id: "ctt"
+                id: "swat"
             }]
-
         },
         {
-            name: "Aarya",
-            comments: "CT manager",
-            id: "U01MPHKFZ7S",
+            name: "Haroon",
+            comments: "",
+            id: "U06TBP41C3E",
             roles: [{
-                id: "ctt"
+                id: "swat"
+            }]
+        },
+        {
+            name: "Samuel",
+            comments: "",
+            id: "U04G40QKAAD",
+            roles: [{
+                id: "swat"
             }]
         }
     ],
     roles: [
-        { name: "Community Toolkit Team", id: "ctt", members: ["U04CBLNSVH6", "U01MPHKFZ7S"], permissions: ["threadlocker:*"], managers: ["U04CBLNSVH6", "U01MPHKFZ7S"] }
+        { name: "SWAT", id: "swat", members: ["U05F4B48GBF", "U04CBLNSVH6", "U06TBP41C3E", "U04G40QKAAD"], permissions: ["librarian:*"], managers: [] }
     ],
     services: [{
-        name: "Threadlocker",
-        id: "threadlocker",
-        permissions: ["lock", "unlock"]
+        name: "Librarian",
+        id: "librarian",
+        permissions: ["feature", "unlock"]
     }]
 }
